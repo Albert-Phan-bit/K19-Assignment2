@@ -1,0 +1,16 @@
+a. Create 3 files: file1, file2, file3 => file1, file2 va file3 duoc tao ra trong 1 folder
+
+b. Run: git init => repository duoc tao ra cho folder chua file1, file2, file3 
+                    va ca 3 files dang nam o vung working directory
+
+c. Run: git commit -m "init project => file1, file2 va file3 van nam o vung working directory
+                                        do chua co file nao duoc add vao vung staging
+
+d. Run: git add file1   => file1 duoc add vao vung staging
+                            file2 va file3 van o vung working directory
+
+e. Run: git commit -m "add file1" => file1 duoc add vao vung repository
+                                     file2 va file3 van o vung workign directory
+
+f. Run: git commit -m "add file" => file1 duoc add vao vung repository
+                                    file2 va file3 van o vung workign directory
